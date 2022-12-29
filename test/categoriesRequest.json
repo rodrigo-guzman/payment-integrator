@@ -1,0 +1,5 @@
+{
+  "getCategories": [{ "description": "Luz", "id": "Category_ID_1" }],
+  "getCategoriesById": "",
+  "getCompanies": ""
+}

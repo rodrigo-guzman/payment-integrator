@@ -1,0 +1,17 @@
+const payment = ({ dependencies }) => async (params) => {
+  const { apiCall, loginInstance, configs } = dependencies;
+  const body = params;
+  //const { access_token } = await loginInstance();
+  const paramsToApiCall = {
+    data: body,
+    method: 'POST',
+    path: 'preferences',
+    headers: {
+      Authorization: configs.authorization,
+    },
+  };
+
+  return apiCall(paramsToApiCall);
+};
+
+module.exports = { payment };

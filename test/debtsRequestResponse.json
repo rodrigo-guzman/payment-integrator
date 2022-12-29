@@ -1,0 +1,4 @@
+{
+  "statusCode": 200,
+  "body": "{\"debtsData\":{\"operationId\":\"0ab74f96-f887-4106-bab0-5b54d3bfa7ac\",\"companyCode\":\"AR-S-0003\",\"companyName\":\"EDENOR\",\"customerId\":\"001748880853\",\"customerName\":\"\",\"customerAddress\":\"\",\"debts\":[{\"debtId\":\"0ab74f96-f887-4106-bab0-5b54d3bfa7ac-0\",\"amount\":741.35,\"minAmount\":741.35,\"maxAmount\":741.35,\"expirationDate\":null,\"amountType\":\"CLOSED\",\"expired\":false,\"details\":[{\"label\":\"Cliente\",\"value\":\"001748880853\"}],\"expirations\":[]}],\"tx\":\"0ab74f96-f887-4106-bab0-5b54d3bfa7ac\",\"mainTx\":\"0ab74f96-f887-4106-bab0-5b54d3bfa7ac\"}}"
+}

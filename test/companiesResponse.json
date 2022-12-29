@@ -1,0 +1,76 @@
+{
+  "companies": [
+    {
+      "companyCode": "482",
+      "companyName": "GOB. DE LA PCIA DE MENDOZA",
+      "modalityId": "39030785707000000527",
+      "queryData": [
+        {
+          "description": "Numero de DNI",
+          "helpText": "Ingrese documento sin puntos ni guiones",
+          "identifierName": "C11"
+        }
+      ]
+    },
+    {
+      "companyCode": "company_ID_2",
+      "companyName": "Edesur",
+      "modalityId": "modality_ID_2",
+      "queryData": [
+        {
+          "description": "Número de cliente",
+          "helpText": "Se encuentra arriba a la derecha en la factura como Cliente",
+          "identifierName": "customer_id"
+        }
+      ]
+    },
+    {
+      "companyCode": "company_ID_3",
+      "companyName": "Dpec",
+      "modalityId": "modality_ID_3",
+      "queryData": [
+        {
+          "description": "Número de cliente",
+          "helpText": "Se encuentra arriba a la derecha en la factura como Cliente",
+          "identifierName": "customer_id"
+        }
+      ]
+    },
+    {
+      "companyCode": "company_ID_4",
+      "companyName": "Epec",
+      "modalityId": "modality_ID_4",
+      "queryData": [
+        {
+          "description": "Número de cliente",
+          "helpText": "Se encuentra arriba a la derecha en la factura como Cliente",
+          "identifierName": "customer_id"
+        }
+      ]
+    },
+    {
+      "companyCode": "company_ID_5",
+      "companyName": "Edelap",
+      "modalityId": "modality_ID_5",
+      "queryData": [
+        {
+          "description": "Número de cliente",
+          "helpText": "Se encuentra arriba a la derecha en la factura como Cliente",
+          "identifierName": "customer_id"
+        }
+      ]
+    },
+    {
+      "companyCode": "company_ID_6",
+      "companyName": "Edemsa",
+      "modalityId": "modality_ID_6",
+      "queryData": [
+        {
+          "description": "Número de cliente",
+          "helpText": "Se encuentra arriba a la derecha en la factura como Cliente",
+          "identifierName": "customer_id"
+        }
+      ]
+    }
+  ]
+}

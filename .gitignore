@@ -1,0 +1,24 @@
+# Dependency directories
+node_modules/
+
+# dotenv environment variables file
+.env
+
+docs/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn.lock
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+.vscode
+.webpack
+.serverless
+
+.npmrc
+
+coverage/
+

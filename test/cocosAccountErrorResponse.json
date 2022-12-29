@@ -1,0 +1,6 @@
+{
+  "name": "QueryError",
+  "status": 400,
+  "detail": "Saldo insuficiente. Saldo disponible:13,286.49",
+  "code": "insufficientBalance"
+}

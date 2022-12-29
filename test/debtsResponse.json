@@ -1,0 +1,28 @@
+{
+  "operationId": "71a37fa1-a02a-4495-807e-9e6b41634c08",
+  "companyCode": "AR-S-0003",
+  "companyName": "EDENOR",
+  "customerId": "001748880853",
+  "customerName": "",
+  "customerAddress": "",
+  "debts": [
+    {
+      "debtId": "71a37fa1-a02a-4495-807e-9e6b41634c08-0",
+      "amount": 741.35,
+      "minAmount": 741.35,
+      "maxAmount": 741.35,
+      "expirationDate": null,
+      "amountType": "CLOSED",
+      "expired": false,
+      "details": [
+        {
+          "label": "Cliente",
+          "value": "001748880853"
+        }
+      ],
+      "expirations": []
+    }
+  ],
+  "tx": "71a37fa1-a02a-4495-807e-9e6b41634c08",
+  "mainTx": "71a37fa1-a02a-4495-807e-9e6b41634c08"
+}

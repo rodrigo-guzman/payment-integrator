@@ -1,0 +1,598 @@
+{
+  "data":[
+     {
+        "category_id":"Category_ID_1",
+        "description":"Luz",
+        "companies":[
+           {
+              "companyCode":"482",
+              "companyName":"GOB. DE LA PCIA DE MENDOZA",
+              "modalityId":"39030785707000000527",
+              "queryData":[
+                 {
+                    "description":"Numero de DNI",
+                    "helpText":"Ingrese documento sin puntos ni guiones",
+                    "identifierName":"C11"
+                 }
+              ]
+           },
+           {
+              "companyCode":"company_ID_2",
+              "companyName":"Edesur",
+              "modalityId":"modality_ID_2",
+              "queryData":[
+                 {
+                    "description":"Número de cliente",
+                    "helpText":"Se encuentra arriba a la derecha en la factura como Cliente",
+                    "identifierName":"customer_id"
+                 }
+              ]
+           },
+           {
+              "companyCode":"company_ID_3",
+              "companyName":"Dpec",
+              "modalityId":"modality_ID_3",
+              "queryData":[
+                 {
+                    "description":"Número de cliente",
+                    "helpText":"Se encuentra arriba a la derecha en la factura como Cliente",
+                    "identifierName":"customer_id"
+                 }
+              ]
+           },
+           {
+              "companyCode":"company_ID_4",
+              "companyName":"Epec",
+              "modalityId":"modality_ID_4",
+              "queryData":[
+                 {
+                    "description":"Número de cliente",
+                    "helpText":"Se encuentra arriba a la derecha en la factura como Cliente",
+                    "identifierName":"customer_id"
+                 }
+              ]
+           },
+           {
+              "companyCode":"company_ID_5",
+              "companyName":"Edelap",
+              "modalityId":"modality_ID_5",
+              "queryData":[
+                 {
+                    "description":"Número de cliente",
+                    "helpText":"Se encuentra arriba a la derecha en la factura como Cliente",
+                    "identifierName":"customer_id"
+                 }
+              ]
+           },
+           {
+              "companyCode":"company_ID_6",
+              "companyName":"Edemsa",
+              "modalityId":"modality_ID_6",
+              "queryData":[
+                 {
+                    "description":"Número de cliente",
+                    "helpText":"Se encuentra arriba a la derecha en la factura como Cliente",
+                    "identifierName":"customer_id"
+                 }
+              ]
+           }
+        ]
+     },
+     {
+        "category_id":"Category_ID_2",
+        "description":"Agua",
+        "companies":[
+           {
+              "companyCode":"151",
+              "companyName":"ZURICH ARG CIA DE SEGUROS S.A.",
+              "modalityId":"219e1f8b-e3f3-43b6-b381-de832c2e90e4",
+              "queryData":[
+                 {
+                    "description":"Número de Poliza",
+                    "helpText":"Se encuentra arriba a la derecha en la factura como Numero de Poliza",
+                    "identifierName":"CBF"
+                 }
+              ]
+           },
+           {
+              "companyCode":"company_ID_2",
+              "companyName":"ABSA",
+              "modalityId":"modality_ID_2",
+              "queryData":[
+                 {
+                    "description":"Número de cliente",
+                    "helpText":"Se encuentra arriba a la derecha en la factura como Cliente",
+                    "identifierName":"customer_id"
+                 }
+              ]
+           },
+           {
+              "companyCode":"company_ID_3",
+              "companyName":"Aguas cordobesas",
+              "modalityId":"modality_ID_3",
+              "queryData":[
+                 {
+                    "description":"Número de cliente",
+                    "helpText":"Se encuentra arriba a la derecha en la factura como Cliente",
+                    "identifierName":"customer_id"
+                 }
+              ]
+           },
+           {
+              "companyCode":"company_ID_4",
+              "companyName":"Aguas de corrientes",
+              "modalityId":"modality_ID_4",
+              "queryData":[
+                 {
+                    "description":"Número de cliente",
+                    "helpText":"Se encuentra arriba a la derecha en la factura como Cliente",
+                    "identifierName":"customer_id"
+                 }
+              ]
+           }
+        ]
+     },
+     {
+        "category_id":"Category_ID_4",
+        "description":"Gas",
+        "companies":[
+           {
+              "companyCode":"company_ID_1",
+              "companyName":"Camuzzi",
+              "modalityId":"modality_ID_1",
+              "queryData":[
+                 {
+                    "description":"Número de cliente",
+                    "helpText":"Se encuentra arriba a la derecha en la factura como Cliente",
+                    "identifierName":"customer_id"
+                 }
+              ]
+           },
+           {
+              "companyCode":"company_ID_2",
+              "companyName":"Metrogas",
+              "modalityId":"modality_ID_2",
+              "queryData":[
+                 {
+                    "description":"Número de cliente",
+                    "helpText":"Se encuentra arriba a la derecha en la factura como Cliente",
+                    "identifierName":"customer_id"
+                 }
+              ]
+           },
+           {
+              "companyCode":"company_ID_3",
+              "companyName":"Gasnor",
+              "modalityId":"modality_ID_3",
+              "queryData":[
+                 {
+                    "description":"Número de cliente",
+                    "helpText":"Se encuentra arriba a la derecha en la factura como Cliente",
+                    "identifierName":"customer_id"
+                 }
+              ]
+           },
+           {
+              "companyCode":"company_ID_4",
+              "companyName":"Litoral Gas ",
+              "modalityId":"modality_ID_4",
+              "queryData":[
+                 {
+                    "description":"Número de cliente",
+                    "helpText":"Se encuentra arriba a la derecha en la factura como Cliente",
+                    "identifierName":"customer_id"
+                 }
+              ]
+           },
+           {
+              "companyCode":"company_ID_5",
+              "companyName":"Ecogas del centro",
+              "modalityId":"modality_ID_5",
+              "queryData":[
+                 {
+                    "description":"Número de cliente",
+                    "helpText":"Se encuentra arriba a la derecha en la factura como Cliente",
+                    "identifierName":"customer_id"
+                 }
+              ]
+           },
+           {
+              "companyCode":"company_ID_6",
+              "companyName":"Ecogas cuyana",
+              "modalityId":"modality_ID_6",
+              "queryData":[
+                 {
+                    "description":"Número de cliente",
+                    "helpText":"Se encuentra arriba a la derecha en la factura como Cliente",
+                    "identifierName":"customer_id"
+                 }
+              ]
+           },
+           {
+              "companyCode":"company_ID_7",
+              "companyName":"Gasnea",
+              "modalityId":"modality_ID_7",
+              "queryData":[
+                 {
+                    "description":"Número de cliente",
+                    "helpText":"Se encuentra arriba a la derecha en la factura como Cliente",
+                    "identifierName":"customer_id"
+                 }
+              ]
+           },
+           {
+              "companyCode":"company_ID_8",
+              "companyName":"Naturgy",
+              "modalityId":"modality_ID_8",
+              "queryData":[
+                 {
+                    "description":"Número de cliente",
+                    "helpText":"Se encuentra arriba a la derecha en la factura como Cliente",
+                    "identifierName":"customer_id"
+                 }
+              ]
+           }
+        ]
+     },
+     {
+        "category_id":"Category_ID_5",
+        "description":"Seguros",
+        "companies":[
+           {
+              "companyCode":"company_ID_1",
+              "companyName":"La caja",
+              "modalityId":"modality_ID_1",
+              "queryData":[
+                 {
+                    "description":"Número de cliente",
+                    "helpText":"Se encuentra arriba a la derecha en la factura como Cliente",
+                    "identifierName":"customer_id"
+                 }
+              ]
+           },
+           {
+              "companyCode":"company_ID_2",
+              "companyName":"Mercantil andina",
+              "modalityId":"modality_ID_2",
+              "queryData":[
+                 {
+                    "description":"Número de cliente",
+                    "helpText":"Se encuentra arriba a la derecha en la factura como Cliente",
+                    "identifierName":"customer_id"
+                 }
+              ]
+           },
+           {
+              "companyCode":"company_ID_3",
+              "companyName":"Rio Uruguay",
+              "modalityId":"modality_ID_3",
+              "queryData":[
+                 {
+                    "description":"Número de cliente",
+                    "helpText":"Se encuentra arriba a la derecha en la factura como Cliente",
+                    "identifierName":"customer_id"
+                 }
+              ]
+           },
+           {
+              "companyCode":"company_ID_4",
+              "companyName":"Sancor Seguros",
+              "modalityId":"modality_ID_4",
+              "queryData":[
+                 {
+                    "description":"Número de cliente",
+                    "helpText":"Se encuentra arriba a la derecha en la factura como Cliente",
+                    "identifierName":"customer_id"
+                 }
+              ]
+           },
+           {
+              "companyCode":"company_ID_5",
+              "companyName":"Seguros Rivadavia",
+              "modalityId":"modality_ID_5",
+              "queryData":[
+                 {
+                    "description":"Número de cliente",
+                    "helpText":"Se encuentra arriba a la derecha en la factura como Cliente",
+                    "identifierName":"customer_id"
+                 }
+              ]
+           },
+           {
+              "companyCode":"company_ID_6",
+              "companyName":"Federacion Patronal Seguros",
+              "modalityId":"modality_ID_6",
+              "queryData":[
+                 {
+                    "description":"Número de cliente",
+                    "helpText":"Se encuentra arriba a la derecha en la factura como Cliente",
+                    "identifierName":"customer_id"
+                 }
+              ]
+           }
+        ]
+     },
+     {
+        "category_id":"Category_ID_6",
+        "description":"Cobertura Médica",
+        "companies":[
+           {
+              "companyCode":"company_ID_1",
+              "companyName":"Accord Salud",
+              "modalityId":"modality_ID_1",
+              "queryData":[
+                 {
+                    "description":"Número de cliente",
+                    "helpText":"Se encuentra arriba a la derecha en la factura como Cliente",
+                    "identifierName":"customer_id"
+                 }
+              ]
+           },
+           {
+              "companyCode":"company_ID_2",
+              "companyName":"Galeno",
+              "modalityId":"modality_ID_2",
+              "queryData":[
+                 {
+                    "description":"Número de cliente",
+                    "helpText":"Se encuentra arriba a la derecha en la factura como Cliente",
+                    "identifierName":"customer_id"
+                 }
+              ]
+           },
+           {
+              "companyCode":"company_ID_3",
+              "companyName":"Omint",
+              "modalityId":"modality_ID_3",
+              "queryData":[
+                 {
+                    "description":"Número de cliente",
+                    "helpText":"Se encuentra arriba a la derecha en la factura como Cliente",
+                    "identifierName":"customer_id"
+                 }
+              ]
+           },
+           {
+              "companyCode":"company_ID_4",
+              "companyName":"OSDE",
+              "modalityId":"modality_ID_4",
+              "queryData":[
+                 {
+                    "description":"Número de cliente",
+                    "helpText":"Se encuentra arriba a la derecha en la factura como Cliente",
+                    "identifierName":"customer_id"
+                 }
+              ]
+           },
+           {
+              "companyCode":"company_ID_5",
+              "companyName":"Sancor Salud",
+              "modalityId":"modality_ID_5",
+              "queryData":[
+                 {
+                    "description":"Número de cliente",
+                    "helpText":"Se encuentra arriba a la derecha en la factura como Cliente",
+                    "identifierName":"customer_id"
+                 }
+              ]
+           },
+           {
+              "companyCode":"company_ID_6",
+              "companyName":"Swiss Medical",
+              "modalityId":"modality_ID_6",
+              "queryData":[
+                 {
+                    "description":"Número de cliente",
+                    "helpText":"Se encuentra arriba a la derecha en la factura como Cliente",
+                    "identifierName":"customer_id"
+                 }
+              ]
+           }
+        ]
+     },
+     {
+        "category_id":"Category_ID_7",
+        "description":"Televisión/Telefonía/Internet",
+        "companies":[
+           {
+              "companyCode":"company_ID_1",
+              "companyName":"Antina",
+              "modalityId":"modality_ID_1",
+              "queryData":[
+                 {
+                    "description":"Número de cliente",
+                    "helpText":"Se encuentra arriba a la derecha en la factura como Cliente",
+                    "identifierName":"customer_id"
+                 }
+              ]
+           },
+           {
+              "companyCode":"company_ID_2",
+              "companyName":"Personal Flow",
+              "modalityId":"modality_ID_2",
+              "queryData":[
+                 {
+                    "description":"Número de cliente",
+                    "helpText":"Se encuentra arriba a la derecha en la factura como Cliente",
+                    "identifierName":"customer_id"
+                 }
+              ]
+           },
+           {
+              "companyCode":"company_ID_3",
+              "companyName":"Movistar",
+              "modalityId":"modality_ID_3",
+              "queryData":[
+                 {
+                    "description":"Número de cliente",
+                    "helpText":"Se encuentra arriba a la derecha en la factura como Cliente",
+                    "identifierName":"customer_id"
+                 }
+              ]
+           },
+           {
+              "companyCode":"company_ID_4",
+              "companyName":"Claro",
+              "modalityId":"modality_ID_4",
+              "queryData":[
+                 {
+                    "description":"Número de cliente",
+                    "helpText":"Se encuentra arriba a la derecha en la factura como Cliente",
+                    "identifierName":"customer_id"
+                 }
+              ]
+           },
+           {
+              "companyCode":"company_ID_5",
+              "companyName":"Directv",
+              "modalityId":"modality_ID_5",
+              "queryData":[
+                 {
+                    "description":"Número de cliente",
+                    "helpText":"Se encuentra arriba a la derecha en la factura como Cliente",
+                    "identifierName":"customer_id"
+                 }
+              ]
+           },
+           {
+              "companyCode":"company_ID_6",
+              "companyName":"Movistar Hogar",
+              "modalityId":"modality_ID_6",
+              "queryData":[
+                 {
+                    "description":"Número de cliente",
+                    "helpText":"Se encuentra arriba a la derecha en la factura como Cliente",
+                    "identifierName":"customer_id"
+                 }
+              ]
+           },
+           {
+              "companyCode":"company_ID_6",
+              "companyName":"Telecentro",
+              "modalityId":"modality_ID_6",
+              "queryData":[
+                 {
+                    "description":"Número de cliente",
+                    "helpText":"Se encuentra arriba a la derecha en la factura como Cliente",
+                    "identifierName":"customer_id"
+                 }
+              ]
+           },
+           {
+              "companyCode":"company_ID_6",
+              "companyName":"Telecom Argentina",
+              "modalityId":"modality_ID_6",
+              "queryData":[
+                 {
+                    "description":"Número de cliente",
+                    "helpText":"Se encuentra arriba a la derecha en la factura como Cliente",
+                    "identifierName":"customer_id"
+                 }
+              ]
+           },
+           {
+              "companyCode":"company_ID_6",
+              "companyName":"Tuenti",
+              "modalityId":"modality_ID_6",
+              "queryData":[
+                 {
+                    "description":"Número de cliente",
+                    "helpText":"Se encuentra arriba a la derecha en la factura como Cliente",
+                    "identifierName":"customer_id"
+                 }
+              ]
+           }
+        ]
+     },
+     {
+        "category_id":"Category_ID_8",
+        "description":"Educación",
+        "companies":[
+           {
+              "companyCode":"company_ID_1",
+              "companyName":"UAI",
+              "modalityId":"modality_ID_1",
+              "queryData":[
+                 {
+                    "description":"Número de cliente",
+                    "helpText":"Se encuentra arriba a la derecha en la factura como Cliente",
+                    "identifierName":"customer_id"
+                 }
+              ]
+           },
+           {
+              "companyCode":"company_ID_2",
+              "companyName":"ORT",
+              "modalityId":"modality_ID_2",
+              "queryData":[
+                 {
+                    "description":"Número de cliente",
+                    "helpText":"Se encuentra arriba a la derecha en la factura como Cliente",
+                    "identifierName":"customer_id"
+                 }
+              ]
+           },
+           {
+              "companyCode":"company_ID_3",
+              "companyName":"UADE",
+              "modalityId":"modality_ID_3",
+              "queryData":[
+                 {
+                    "description":"Número de cliente",
+                    "helpText":"Se encuentra arriba a la derecha en la factura como Cliente",
+                    "identifierName":"customer_id"
+                 }
+              ]
+           },
+           {
+              "companyCode":"company_ID_4",
+              "companyName":"UP",
+              "modalityId":"modality_ID_4",
+              "queryData":[
+                 {
+                    "description":"Número de cliente",
+                    "helpText":"Se encuentra arriba a la derecha en la factura como Cliente",
+                    "identifierName":"customer_id"
+                 }
+              ]
+           },
+           {
+              "companyCode":"company_ID_5",
+              "companyName":"USAL",
+              "modalityId":"modality_ID_5",
+              "queryData":[
+                 {
+                    "description":"Número de cliente",
+                    "helpText":"Se encuentra arriba a la derecha en la factura como Cliente",
+                    "identifierName":"customer_id"
+                 }
+              ]
+           },
+           {
+              "companyCode":"company_ID_6",
+              "companyName":"ITBA",
+              "modalityId":"modality_ID_6",
+              "queryData":[
+                 {
+                    "description":"Número de cliente",
+                    "helpText":"Se encuentra arriba a la derecha en la factura como Cliente",
+                    "identifierName":"customer_id"
+                 }
+              ]
+           },
+           {
+              "companyCode":"company_ID_6",
+              "companyName":"UTDT",
+              "modalityId":"modality_ID_6",
+              "queryData":[
+                 {
+                    "description":"Número de cliente",
+                    "helpText":"Se encuentra arriba a la derecha en la factura como Cliente",
+                    "identifierName":"customer_id"
+                 }
+              ]
+           }
+        ]
+     }
+  ]
+}

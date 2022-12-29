@@ -1,0 +1,66 @@
+service: cocos-tapi-integration
+useDotenv: true  
+provider:
+  name: aws
+  runtime: nodejs14.x
+  lambdaHashingVersion: 20201221
+  endpointType: PRIVATE
+  apiGateway:
+    shouldStartNameWithService: true
+    minimumCompressionSize: 1024 # Enable gzip compression for responses > 1 KB
+  environment:
+    CLIENT_ID: '7785720164245259'
+    RESPONSE_TYPE: 'code'
+    PLATFORM_ID: 'mp'
+    STATE: 'AUTORIZACIONCLIENTE'
+    REDIRECT_URL: 'https://rodrigogastonguzman123456789'
+    BASE_URL_LOGIN: 'https://api.mercadopago.com/oauth'
+    CONTENT_TYPE: 'application/json'
+    BASE_URL_SERVICES: 'https://api.mercadopago.com/checkout'
+    AUTHORIZATION: 'Bearer TEST-1775708494105470-122217-e20ac40b926b764e74a2c6db823dd069-51604438'
+
+functions:
+  get-categories:
+    handler: src/deliveries/categories.handlerRequests
+    events:
+      - http:
+          method: get
+          cors: true 
+          path: '/categories/'
+      - http:
+          method: get
+          cors: true 
+          path: '/categories/{category_id}'
+      - http:
+          method: get
+          cors: true 
+          path: '/categories/{category_id}/companies'
+  get-debts:
+    handler: src/deliveries/getDebts.handlerRequests
+    events:
+      - http:
+          method: post
+          cors: true 
+          path: '/companies/debt'
+    timeout: 30              
+  pay-debts:
+    handler: src/deliveries/payDebts.handlerRequests
+    events:
+      - http:
+          method: post
+          cors: true 
+          path: '/payment' 
+    timeout: 30
+              
+custom:
+  webpack:
+    webpackConfig: webpack.config.js
+    includeModules: 
+      forceInclude:
+        - dotenv
+package:
+  individually: true    
+plugins:
+  - serverless-offline
+  - serverless-webpack
+  - serverless-dotenv-plugin

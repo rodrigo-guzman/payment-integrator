@@ -1,0 +1,26 @@
+{
+  "statusCode": 200,
+  "body": {
+    "paymentData": {
+      "operationId": "0db3e5ca-d378-41ab-9e6c-79a2fd6341bf",
+      "companyCode": "AR-S-0003",
+      "companyName": "EDENOR",
+      "externalPaymentId": "ddf43984-8fde-4086-b3b0-15bf09f6f1c3",
+      "externalClientId": "external-client-mock",
+      "status": "processing",
+      "createdAt": "2022-08-10T15:35:42.861Z",
+      "amount": 741.35,
+      "paymentMethod": "ACCOUNT",
+      "agent": "Agente oficial Rapipago",
+      "clientUsername": "tap.sandbox",
+      "identifiers": [
+        {
+          "identifierName": "barcode",
+          "identifierValue": "63500174888085301000073965000074135511150209015072"
+        }
+      ],
+      "tx": "11d50fe5-b1a0-49c1-a183-898f5c5be873",
+      "mainTx": "11d50fe5-b1a0-49c1-a183-898f5c5be873"
+    }
+  }
+}

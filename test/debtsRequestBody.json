@@ -1,0 +1,12 @@
+{
+    "companyCode": "AR-S-0003",
+    "modalityId": "0e00c24e-97bd-40bb-a862-fecbff20dd44",
+    "queryData": [
+      {
+        "identifierName": "barcode",
+        "identifierValue": "63500174888085301000073965000074135511150209015072"
+      }
+    ],
+    "customerId": "external-client-mock"
+  }
+  
