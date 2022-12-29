@@ -7,6 +7,7 @@ const { cocosAuth } = require('./cocosAuth');
 const { cocosAmount } = require('./cocosAmount');
 const { cocosAccount } = require('./cocosAccount');
 const { cocosTransfer } = require('./cocosTransfer');
+const { subscription } = require('./subscription');
 
 const { loginData, servicesData, cocosData } = require('config');
 
@@ -80,7 +81,18 @@ const payDebtsInstance = payment({
     }),
     loginInstance,
     configs: {
-      apiKey: servicesData.apiKey,
+      authorization: servicesData.authorization,
+    },
+  },
+});
+
+const subscriptionInstance = subscription({
+  dependencies: {
+    apiCall: apiCall({
+      baseUrl: servicesData.baseUrlsubscriptionservices,
+    }),
+    loginInstance,
+    configs: {
       authorization: servicesData.authorization,
     },
   },
@@ -94,4 +106,5 @@ module.exports = {
   amountInstance,
   accountInstance,
   transferInstance,
+  subscriptionInstance,
 };

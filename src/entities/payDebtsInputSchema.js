@@ -49,4 +49,28 @@ const payDebtsSchemaPreferences = new Schemy({
     required: true,
   },
 });
-module.exports = { payDebtsSchemaPayments, payDebtsSchemaPreferences };
+
+const subscriptionschema = new Schemy({
+  reason: {
+    type: String,
+    required: true,
+  },
+  auto_recurring: {
+    type: Object,
+    required: true,
+  },
+  back_url: {
+    type: String,
+    required: true,
+  },
+  payer_email: {
+    type: String,
+    required: true,
+  },
+});
+
+module.exports = {
+  payDebtsSchemaPayments,
+  payDebtsSchemaPreferences,
+  subscriptionschema,
+};

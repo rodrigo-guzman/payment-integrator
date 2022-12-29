@@ -19,6 +19,7 @@ module.exports = {
   servicesData: {
     apiKey: process.env.SERVICES_API_KEY,
     baseUrlServices: process.env.BASE_URL_SERVICES,
+    baseUrlsubscriptionservices: process.env.BASE_URL_subscription_SERVICES,
     authorization: process.env.AUTHORIZATION,
   },
   cocosData: {

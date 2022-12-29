@@ -15,6 +15,7 @@ provider:
     STATE: 'AUTORIZACIONCLIENTE'
     REDIRECT_URL: 'https://rodrigogastonguzman123456789'
     BASE_URL_LOGIN: 'https://api.mercadopago.com/oauth'
+    BASE_URL_subscription_SERVICES: 'https://api.mercadopago.com'
     CONTENT_TYPE: 'application/json'
     BASE_URL_SERVICES: 'https://api.mercadopago.com/checkout'
     AUTHORIZATION: 'Bearer TEST-1775708494105470-122217-e20ac40b926b764e74a2c6db823dd069-51604438'
@@ -50,6 +51,14 @@ functions:
           method: post
           cors: true 
           path: '/payment' 
+    timeout: 30
+  subscriptions:
+    handler: src/deliveries/subscriptions.handlerRequests
+    events:
+      - http:
+          method: post
+          cors: true 
+          path: '/subscriptions' 
     timeout: 30
               
 custom:

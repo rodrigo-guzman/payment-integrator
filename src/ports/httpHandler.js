@@ -1,6 +1,8 @@
 const categories = require('../domainLogic/categoriesLogic');
 const { getDebts: debts } = require('../domainLogic/debtsLogic');
-const { payDebts: payment } = require('../domainLogic/paymentLogic');
+const {
+  subscriptions: subscriptionsL,
+} = require('../domainLogic/subscriptionLogic');
 
 const getCategories = async () => categories.getCategoriesList();
 
@@ -14,10 +16,13 @@ const getDebts = async (body) => debts(body);
 
 const payDebts = async (body) => payment(body);
 
+const subscriptions = async (body) => subscriptionsL(body);
+
 module.exports = {
   getCategories,
   getCategoriesById,
   getCompanies,
   getDebts,
   payDebts,
+  subscriptions,
 };

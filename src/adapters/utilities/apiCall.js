@@ -18,7 +18,6 @@ const apiCall = (dependencies) => async (optionsParams) => {
     params,
     timeout: 27000,
   };
-  console.log('optionssssssssss: ', options);
   const { data: response } = await axios(options).catch((e) => {
     buildError(500, 'Unknow error', e);
   });
